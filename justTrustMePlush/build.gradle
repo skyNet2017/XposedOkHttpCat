@@ -45,10 +45,10 @@ android {
 
     signingConfigs {
         debug {
-            storeFile file("C:/Users/Administrator/Desktop/lyhKey.jks")
+            /*storeFile file("C:/Users/Administrator/Desktop/lyhKey.jks")
             storePassword 'wcexit'
             keyAlias 'wcexit'
-            keyPassword 'wcexit'
+            keyPassword 'wcexit'*/
         }
     }
     compileOptions {

@@ -25,17 +25,14 @@ android {
 
     signingConfigs {
         debug {
+           
+        }
+       /* release {
             storeFile file("C:/Users/Administrator/Desktop/lyhKey.jks")
             storePassword 'wcexit'
             keyAlias 'wcexit'
             keyPassword 'wcexit'
-        }
-        release {
-            storeFile file("C:/Users/Administrator/Desktop/lyhKey.jks")
-            storePassword 'wcexit'
-            keyAlias 'wcexit'
-            keyPassword 'wcexit'
-        }
+        }*/
     }
     buildTypes {
         release {
@@ -55,10 +52,7 @@ android {
     }
     signingConfigs {
         debug {
-            storeFile file("C:/Users/Administrator/Desktop/lyhKey.jks")
-            storePassword 'wcexit'
-            keyAlias 'wcexit'
-            keyPassword 'wcexit'
+           
         }
     }
     compileOptions {

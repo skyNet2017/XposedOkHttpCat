@@ -60,17 +60,14 @@ android {
 
     signingConfigs {
         debug {
+           
+        }
+        /*release {
             storeFile file("E:/AndroidKey/lyhKey.jks")
             storePassword 'wcexit'
             keyAlias 'wcexit'
             keyPassword 'wcexit'
-        }
-        release {
-            storeFile file("E:/AndroidKey/lyhKey.jks")
-            storePassword 'wcexit'
-            keyAlias 'wcexit'
-            keyPassword 'wcexit'
-        }
+        }*/
     }
 
     compileOptions {
